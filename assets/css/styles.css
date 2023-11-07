@@ -1,0 +1,110 @@
+
+a{
+  text-decoration: none;
+  color: #eee;
+}
+
+/*
+form{
+
+}
+.formCrearCuenta{
+
+}
+#formTrabajo{
+
+}*/
+.formCrearCuenta{
+max-width:450px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.contenedorInput{
+    display:flex;
+    color:rgb(85, 175, 226) ;
+    
+}
+.contenedorInput label{
+flex-basis: 100px;
+}
+input{
+  width: 100%;
+  border: solid 2px rgb(155, 213, 246);
+  border-radius: 4px;
+}
+.btn{
+  color: green;
+  text-transform: initial;
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+  border: none;
+  border: 1.5px solid green;
+  width:50%;
+  margin: 0 auto;
+}
+.logoEmovi{
+display: flex;
+justify-content: center;
+}
+
+/*ESTILOS PÁGINA DE SELECCIÓN DE PERFIL*/
+.contenedorPerfil_titulo{
+  text-align:center;
+  color: #676767;
+}
+
+.contenedorPerfil_tarjetas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .contenedorPerfil_tarjetas .tarjeta{
+    color: #eee;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 10px;
+    background-color: #3FA9F5;
+    margin: 5rem;
+    box-shadow: 2px 2px 5px #676767;
+  }
+
+    .tarjeta:nth-child(1){
+      color: #eee;
+      width: 15vw;
+      height: 30vh;
+      border-radius: 10px;
+      background-color: #22B573;
+      margin: 5rem;
+      box-shadow: 2px 2px 5px #676767;
+    }
+
+
+    .contenedorPerfil_tarjetas .tarjeta:hover{
+      color: #eee;
+      background-color: #8f8f8f;
+    }
+
+
+      .contenedorPerfil_ayuda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+      .contenedorPerfil_ayuda a button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        height: 10vh;
+        border-radius: 20px;
+        background-color: #FF0000;
+        color: #eee;
+        box-shadow: 2px 2px 5px #676767;
+      }
