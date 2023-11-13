@@ -1,0 +1,46 @@
+/*
+form{
+
+}
+.formCrearCuenta{
+
+}
+#formTrabajo{
+
+}*/
+.formCrearCuenta{
+max-width:450px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.contenedorInput{
+    display:flex;
+    color:rgb(85, 175, 226) ;
+    
+}
+.contenedorInput label{
+flex-basis: 100px;
+}
+input{
+  width: 100%;
+  border: solid 2px rgb(155, 213, 246);
+  border-radius: 4px;
+}
+.btn{
+  color: green;
+  text-transform: initial;
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+  border: none;
+  border: 1.5px solid green;
+  width:50%;
+  margin: 0 auto;
+}
+.logoEmovi{
+display: flex;
+justify-content: center;
+}
